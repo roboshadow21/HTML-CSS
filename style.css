@@ -1,0 +1,58 @@
+body {
+  background-color: ghostwhite;
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
+a {
+  text-decoration: none;
+} 
+
+.link_style {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.head1_style {
+  color: #447fb3;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.head2_style {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.head3_style {
+  color: #447fb3;
+  font-style: italic;
+  font-weight: 500;
+  font-size: x-large;
+  line-height: 40px;  
+}
+
+.head4_style {
+  color: #447fb3;
+  font-style: oblique;
+  font-weight: 200;
+  font-size: medium;
+  line-height: 20px;  
+}
+
+.paragraph_style {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: rebeccapurple;
+}
+
+.photo_style {
+  border: 1px solid #447fb3;
+  border-radius: 10px 30px 20px 60px;
+}
