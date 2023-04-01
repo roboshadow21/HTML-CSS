@@ -1,3 +1,8 @@
+body {
+  background-color: ghostwhite;
+  font-family: sans-serif;
+}
+
 a {
   text-decoration: none;
 } 
@@ -24,5 +29,14 @@ a {
 }
 
 .head2_style {
-  
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.photo_style {
+  border: 1px solid #447fb3;
+  border-radius: 10px 30px 20px 60px;
 }
