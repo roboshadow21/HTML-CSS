@@ -14,3 +14,15 @@ a {
   line-height: 36px;
   font-weight: bold;
 }
+
+.paragraph_style {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: rebeccapurple;
+}
+
+.head2_style {
+  
+}
