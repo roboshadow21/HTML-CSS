@@ -7,3 +7,10 @@ a {
   font-size: 16px;
   line-height: 20px;
 }
+
+.head1_style {
+  color: #447fb3;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
