@@ -20,20 +20,36 @@ a {
   font-weight: bold;
 }
 
-.paragraph_style {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-  color: rebeccapurple;
-}
-
 .head2_style {
   color: coral;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 80px;
+}
+
+.head3_style {
+  color: #447fb3;
+  font-style: italic;
+  font-weight: 500;
+  font-size: x-large;
+  line-height: 40px;  
+}
+
+.head4_style {
+  color: #447fb3;
+  font-style: oblique;
+  font-weight: 200;
+  font-size: medium;
+  line-height: 20px;  
+}
+
+.paragraph_style {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: rebeccapurple;
 }
 
 .photo_style {
