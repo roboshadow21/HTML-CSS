@@ -16,7 +16,25 @@ img {
 	max-width: 100%;
 }
 
-/* .container {
-	width: 1146px;
+.container {
+	width: 533px;
 	margin: 0 auto;
-} */
+}
+
+.logotop {
+  margin-top: 26px;
+  margin-right: 48;
+  margin-left: 59px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 137px;
+}
+
+.navigation {
+  padding-top: 11px;
+  padding-right: 14;
+  padding-bottom: 12px;
+  padding-left: 9px;
+  margin-top: -40px;
+  width: 556px;
+}
