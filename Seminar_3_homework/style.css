@@ -14,7 +14,6 @@ body {
 header {
   margin-top: 14px;
   margin-bottom: 21px;
-  /* width: 1289px; */
 }
 
 img {
@@ -55,7 +54,7 @@ img {
 }
 
 main {
-  margin-bottom: 15px;
+  margin-bottom: 53px;
 }
 
 .main__container {
@@ -105,7 +104,25 @@ main {
   color: #AAAAAA;
 }
 
+
+
 .main-photo {
   margin-left: 549px;
   margin-top: -325px;
+}
+
+footer {
+  margin-bottom: 32px;
+}
+
+.footer-container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline;
+  margin-right: 48px;
+  margin-left: -10px;
+
 }
