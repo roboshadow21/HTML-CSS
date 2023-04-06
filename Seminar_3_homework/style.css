@@ -13,6 +13,8 @@ body {
 
 header {
   margin-top: 14px;
+  margin-bottom: 21px;
+  width: 1289px;
 }
 
 img {
@@ -21,8 +23,8 @@ img {
 }
 
 .container {
-	/* width: 533px; */
-	width: 1319px;
+	width: 556px;
+	/* width: 1319px; */
 	margin: 0 auto;
 }
 
@@ -42,4 +44,13 @@ img {
   padding-left: 9px;
   margin-top: -40px;
   width: 556px;
+  font-family: 'Gilroy-SemiBold';
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
 }
+
+.red_letters {
+  color: #F25822;
+}
+
