@@ -14,7 +14,7 @@ body {
 header {
   margin-top: 14px;
   margin-bottom: 21px;
-  width: 1289px;
+  /* width: 1289px; */
 }
 
 img {
@@ -52,5 +52,61 @@ img {
 
 .red_letters {
   color: #F25822;
+}
+
+main {
+  margin-bottom: 15px;
+}
+
+.main__container {
+  width: 1274px;
+  margin: 0 auto;
+}
+
+.content__left__block {
+  width: 589px;
+}
+
+.main__title {
+  font-family: 'Gilroy-Bold';
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.subtitle {
+  font-family: 'Gilroy-Medium';
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+  margin-bottom: 16px;
+}
+/* .btns-block { */
+  /* box-sizing: border-box;
+  border: 1px solid #FF1DA4; */
+  /* width: 374px; */
+/* } */
+
+.red-button {
+  /* padding-top: 21px;
+  padding-right: 211px;
+  padding-bottom: 23px;
+  padding-left: 23px;
+  width: 140px; */
+  background: #F25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  font-family: 'Gilroy-Bold';
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.white-button {
+  font-family: 'Gilroy-Bold';
+  font-size: 15px;
+  line-height: 18px;
+  color: #AAAAAA;
 }
 
