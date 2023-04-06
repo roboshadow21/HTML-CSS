@@ -89,11 +89,6 @@ main {
 /* } */
 
 .red-button {
-  /* padding-top: 21px;
-  padding-right: 211px;
-  padding-bottom: 23px;
-  padding-left: 23px;
-  width: 140px; */
   background: #F25822;
   box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
   border-radius: 50px;
@@ -110,3 +105,7 @@ main {
   color: #AAAAAA;
 }
 
+.main-photo {
+  margin-left: 549px;
+  margin-top: -325px;
+}
