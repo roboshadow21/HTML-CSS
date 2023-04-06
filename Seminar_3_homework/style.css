@@ -8,7 +8,11 @@
 body {
 	scroll-behavior: smooth;
 	text-rendering: optimizeSpeed;
-	/* background: #020a18; */
+  background: #FFFFFF;
+}
+
+header {
+  margin-top: 14px;
 }
 
 img {
@@ -17,7 +21,8 @@ img {
 }
 
 .container {
-	width: 533px;
+	/* width: 533px; */
+	width: 1319px;
 	margin: 0 auto;
 }
 
