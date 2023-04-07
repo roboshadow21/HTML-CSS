@@ -113,6 +113,9 @@ main {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
   padding-top: 95px;
   padding-bottom: 95px;
 }
