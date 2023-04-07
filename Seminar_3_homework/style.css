@@ -118,4 +118,5 @@ main {
   gap: 48px;
   padding-top: 95px;
   padding-bottom: 95px;
+  cursor: pointer;
 }
