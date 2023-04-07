@@ -23,37 +23,30 @@ body {
   background: #ffffff;
 }
 
-header {
-  margin-top: 14px;
-  margin-bottom: 21px;
-}
-
 img {
   display: block;
   max-width: 100%;
 }
-/*--------------------*/
 .container {
-  width: 556px;
+  width: 1170px;
   margin: 0 auto;
 }
 
-.logotop {
-  margin-top: 26px;
-  margin-right: 48;
-  margin-left: 59px;
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 137px;
+/*--------------------*/
+
+header {
+  margin-top: 40px;
+  margin-bottom: 84px;
+}
+
+.navigation__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 500px;
 }
 
 .navigation {
-  padding-top: 11px;
-  padding-right: 14;
-  padding-bottom: 12px;
-  padding-left: 9px;
-  margin-top: -40px;
-  width: 556px;
+  width: 533px;
   font-family: "Gilroy-SemiBold";
   font-size: 14px;
   line-height: 16px;
@@ -65,16 +58,16 @@ img {
 }
 
 main {
-  margin-bottom: 53px;
+  margin-bottom: 162px;
 }
 
-.main__container {
-  width: 1274px;
-  margin: 0 auto;
+.content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .content__left__block {
-  width: 589px;
+  width: 522px;
 }
 
 .main__title {
@@ -86,17 +79,13 @@ main {
 }
 
 .subtitle {
+  width: 466px;
   font-family: "Gilroy-Medium";
   font-size: 20px;
   line-height: 23px;
   color: #888888;
-  margin-bottom: 16px;
+  margin-bottom: 37px;
 }
-/* .btns-block { */
-/* box-sizing: border-box;
-  border: 1px solid #FF1DA4; */
-/* width: 374px; */
-/* } */
 
 .red-button {
   background: #f25822;
@@ -106,31 +95,28 @@ main {
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
+  padding: 15px 36px;
+  border: none;
+  cursor: pointer;
 }
 
 .white-button {
   font-family: "Gilroy-Bold";
+  padding: 15px 36px;
   font-size: 15px;
   line-height: 18px;
   color: #aaaaaa;
+  padding: 15px 36px;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
-.main-photo {
-  margin-left: 700px;
-  margin-top: -325px;
-}
-
-footer {
-  margin-bottom: 32px;
-}
-
-.footer-container {
-  width: 1240px;
-  margin: 0 auto;
-}
-
-.logo {
-  display: inline;
-  margin-right: 48px;
-  margin-left: -10px;
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  cursor: pointer;
 }
