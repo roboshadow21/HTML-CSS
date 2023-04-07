@@ -41,12 +41,13 @@ header {
 
 .navigation__wrapper {
   display: flex;
-  justify-content: center;
-  gap: 500px;
+  justify-content: space-between;
 }
 
 .navigation {
   width: 533px;
+  display: flex;
+  justify-content: space-between;
   font-family: "Gilroy-SemiBold";
   font-size: 14px;
   line-height: 16px;
@@ -114,8 +115,7 @@ main {
 
 .footer {
   display: flex;
-  justify-content: center;
-  gap: 48px;
+  justify-content: space-between;
   padding-top: 95px;
   padding-bottom: 95px;
   cursor: pointer;
