@@ -40,6 +40,9 @@ header {
 }
 
 .navigation__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 500px;
 }
 
 .navigation {
@@ -56,6 +59,11 @@ header {
 
 main {
   margin-bottom: 162px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .content__left__block {
