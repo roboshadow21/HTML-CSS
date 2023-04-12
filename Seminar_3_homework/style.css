@@ -10,6 +10,10 @@
   font-family: "Gilroy-Medium";
   src: url("./fonts/Gilroy-Medium.woff2");
 }
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("./fonts/Gilroy-Regular.woff2");
+}
 * {
   padding: 0;
   margin: 0;
@@ -119,4 +123,42 @@ main {
   padding-top: 95px;
   padding-bottom: 95px;
   cursor: pointer;
+}
+
+.upper__cards__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+/* .upper_card {
+  padding-top: 40px;
+  padding-right: 31px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+} */
+.upper_card h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-top: 25px;
+}
+
+.upper_card p {
+  width: 310px;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  line-height: 150%;
+  color: #666666;
+  margin-top: 17px;
+}
+
+.upper_card a {
+  font-family: "Gilroy-Bold";
+  font-size: 11px;
+  line-height: 150%;
+  color: #000000;
+  margin-top: 25px;
+}
+.central_upper_card {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
