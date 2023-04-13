@@ -197,6 +197,9 @@ main {
 .lower__card {
   background: #FFFFFF;
 }
+.left__lower__picture {
+  height: 270px;
+}
 
 .lower__card h2 {
   font-family: "Gilroy-Bold";
@@ -239,6 +242,7 @@ main {
   color: #ffffff;
   margin: 15px 46px;
   cursor: pointer;
+  width: 68px;
 }
 .central__lower__card {
   box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
