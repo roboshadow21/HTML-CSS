@@ -124,7 +124,9 @@ main {
   padding-bottom: 95px;
   cursor: pointer;
 }
-
+.upper__cards {
+  margin-bottom: 92px;
+}
 .upper__cards__wrapper {
   display: flex;
   justify-content: space-between;
@@ -174,7 +176,7 @@ main {
   line-height: 53px;
   color: #000000;
   text-align: center;
-  margin-top: 92px;
+  padding-top: 92px;
   margin-bottom: 19px;
 }
 .lower__title__text {
@@ -232,6 +234,7 @@ main {
   margin-right: 120px;
   margin-bottom: 50px;
   margin-left: 100px;
+  border: none;
   
 }
 .button__text {
