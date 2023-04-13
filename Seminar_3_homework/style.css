@@ -128,13 +128,14 @@ main {
 .upper__cards__wrapper {
   display: flex;
   justify-content: space-between;
+  margin: 100px 401px 10px 404px;
 }
-/* .upper_card {
+.upper_card {
   padding-top: 40px;
   padding-right: 31px;
   padding-bottom: 25px;
   padding-left: 30px;
-} */
+}
 .upper_card h2 {
   font-family: "Gilroy-Bold";
   font-size: 24px;
