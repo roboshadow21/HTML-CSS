@@ -10,7 +10,8 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   width: 1600px;
-  margin-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -60,15 +61,11 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 290px;
-  /* padding-right: 331px; */
   padding-left: 63px;
   padding-bottom: 381px;
   width: 800px;
   font-family: "Lato";
   font-style: normal;
-  /* font-weight: 900; */
-  /* font-size: 48px;
-  line-height: 58px; */
   color: #222222;
   
 }
@@ -264,4 +261,25 @@ span {
   line-height: 19px;
   color: #f26376;
   cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+  .photo1 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo2 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo3 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo4 {
+    width: 734px;
+    height: 116px;
+  }
 }
