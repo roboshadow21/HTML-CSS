@@ -338,7 +338,7 @@ span {
   }
   .card1 {
     width: 360px;
-    height: 420px;
+    height: auto;
   }
   .description h3 {
     padding-top: 25px;
