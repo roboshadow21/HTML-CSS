@@ -10,7 +10,8 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   width: 1600px;
-  margin-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -60,17 +61,12 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 290px;
-  /* padding-right: 331px; */
   padding-left: 63px;
   padding-bottom: 381px;
   width: 800px;
   font-family: "Lato";
   font-style: normal;
-  /* font-weight: 900; */
-  /* font-size: 48px;
-  line-height: 58px; */
   color: #222222;
-  
 }
 .pink__rectangle {
   border-left: #f16d7f solid 12px;
@@ -182,7 +178,7 @@ span {
 }
 .card1 {
   width: 360px;
-  height: 420px;
+  height: auto;
 }
 .product__cards h2 {
   text-align: center;
@@ -264,4 +260,95 @@ span {
   line-height: 19px;
   color: #f26376;
   cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+  .photo1 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo2 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo3 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo4 {
+    width: 734px;
+    height: 116px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 736px;
+  }
+  .right__menu {
+    gap: 25px;
+    padding-top: 31px;
+  }
+  .banner__title {
+    padding-top: 138px;
+    padding-left: 39px;
+    padding-bottom: 137px;
+    width: 311px;
+  }
+  .banner__title__big {
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .bunner__title__small {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .categories {
+    margin-bottom: 110px;
+  }
+  .categories__wrapper {
+    gap: 19px;
+  }
+  .photo1 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo2 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo3 {
+    width: 232px;
+    height: 167px;
+  }
+  .photo4 {
+    width: 734px;
+    height: 116px;
+  }
+  .product__cards__wrapper {
+    gap: 16px;
+    margin-bottom: 33px;
+  }
+  .product__cards h2 {
+    padding-bottom: 3px;
+  }
+  .product__cards p {
+    padding-bottom: 73px;
+  }
+  .card1 {
+    width: 360px;
+    height: auto;
+  }
+  .description h3 {
+    padding-top: 25px;
+    padding-left: 18px;
+    padding-bottom: 12px;
+  }
+  .description p {
+    width: 315px;
+  }
+  .description h4 {
+    padding-left: 18px;
+  }
 }
