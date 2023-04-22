@@ -261,7 +261,8 @@ span {
   color: #f26376;
   cursor: pointer;
 }
-
+/*-------------------------------*/
+/*Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
     width: 768px;
@@ -428,3 +429,5 @@ span {
     padding-left: 18px;
   }
 }
+/*------------------------*/
+/*Mobile device*/
