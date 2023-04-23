@@ -473,7 +473,6 @@ span {
   }
   .categories__wrapper {
     gap: 32px;
-    padding-left: 16px;
   }
   .photo1 {
     width: 343px;
@@ -494,7 +493,6 @@ span {
   .product__cards__wrapper {
     gap: 16px;
     margin-bottom: 85px;
-    padding-left: 8px;
   }
   .product__cards h2 {
     padding-bottom: 3px;
@@ -506,16 +504,13 @@ span {
 
   .description h3 {
     padding-top: 25px;
-    padding-left: 18px;
     padding-bottom: 12px;
   }
   .description p {
     width: 313px;
     padding-bottom: 36px;
   }
-  .description h4 {
-    padding-left: 18px;
-  }
+
   .card__background {
     height: 600px;
   }
