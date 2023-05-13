@@ -256,21 +256,107 @@ span {
   justify-content: center;
   gap: 30px;
   margin-bottom: 95px;
-  /* position: relative; */
+}
+.card1-img {
+  background-image: url(./img/card_upperleft_pict.jpg);
+  width: 360px;
+  height: 420px;
+}
+.card2__background {
+  background: #f7e4e2;
+  width: 360px;
+  opacity: 0.9;
+}
+.card2 {
+  width: 142px;
+  height: 400px;
+  margin-top: 9px;
+  margin-bottom: 11px;
+  margin-left: 108px;
+  margin-right: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card2-img {
+  background-image: url(./img/card_uppercentral_pict.png);
+  width: 142px;
+  height: 400px;
+}
+.card3-img {
+  background-image: url(./img/card_upperright_pict.png);
+  width: 360px;
+  height: 420px;
+}
+.card4-img {
+  background-image: url(./img/card_lowerleft_pict.png);
+  width: 360px;
+  height: 420px;
+}
+.card5-img {
+  background-image: url(./img/card_lowercentral_pict.png);
+  width: 360px;
+  height: 420px;
+}
+.card6-img {
+  background-image: url(./img/card_lowerright_ict.png);
+  width: 360px;
+  height: 420px;
+}
+.card-filter {
+  background: rgba(58, 56, 56, 0.86);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.5s ease-out;
 }
 
-/* .card1 {
-	width: 360px;
-	height: auto;
+.card1-img:hover .card-filter {
+  opacity: 1;
 }
-.card1:hover {
-	background: rgba(58, 56, 56, 0.86);
-	width: 360px;
-	height: 420px;
-	opacity: 0.6;
-	position: relative;
-	border: 1px solid black;
-} */
+
+.card2__background:hover .card-filter {
+  opacity: 1;
+  width: 360px;
+  height: 420px;
+  transform: translate(-110px, -10px);
+}
+.card3-img:hover .card-filter {
+  opacity: 1;
+}
+.card4-img:hover .card-filter {
+  opacity: 1;
+}
+.card5-img:hover .card-filter {
+  opacity: 1;
+}
+.card6-img:hover .card-filter {
+  opacity: 1;
+}
+.card-btn {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 13px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.card-btn::before {
+  content: url(./img/cart.svg);
+}
 
 .product__cards h2 {
   text-align: center;
@@ -296,10 +382,7 @@ span {
   background: #f8f8f8;
   width: 360px;
 }
-/* .card2 .description {
-	margin-right: 28px;
 
-} */
 .description h3 {
   font-family: "Lato";
   font-style: normal;
@@ -332,43 +415,6 @@ span {
   font-size: 16px;
   line-height: 19px;
   color: #f16d7f;
-}
-
-.card2__background {
-  background: #f7e4e2;
-  width: 360px;
-  opacity: 0.9;
-}
-.card2 {
-  width: 142px;
-  height: 400px;
-  margin-top: 9px;
-  margin-bottom: 11px;
-  margin-left: 108px;
-  margin-right: 109px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card3 {
-  width: 360px;
-  height: auto;
-}
-
-.card4 {
-  width: 360px;
-  height: auto;
-}
-
-.card5 {
-  width: 360px;
-  height: auto;
-}
-
-.card6 {
-  width: 360px;
-  height: auto;
 }
 
 .browse__product__btn {
@@ -1043,89 +1089,4 @@ footer {
     padding-left: 113px;
     margin-top: 43px;
   }
-}
-
-.card1-img {
-  background-image: url(./img/card_upperleft_pict.jpg);
-  width: 360px;
-  height: 420px;
-}
-.card2-img {
-  background-image: url(./img/card_uppercentral_pict.png);
-  width: 142px;
-  height: 400px;
-}
-.card3-img {
-  background-image: url(./img/card_upperright_pict.png);
-  width: 360px;
-  height: 420px;
-}
-.card4-img {
-  background-image: url(./img/card_lowerleft_pict.png);
-  width: 360px;
-  height: 420px;
-}
-.card5-img {
-  background-image: url(./img/card_lowercentral_pict.png);
-  width: 360px;
-  height: 420px;
-}
-.card6-img {
-  background-image: url(./img/card_lowerright_ict.png);
-  width: 360px;
-  height: 420px;
-}
-.card-filter {
-  background: rgba(58, 56, 56, 0.86);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: all 0.5s ease-out;
-}
-
-.card1-img:hover .card-filter {
-  opacity: 1;
-}
-
-.card2__background:hover .card-filter {
-  opacity: 1;
-  width: 360px;
-  height: 420px;
-  transform: translate(-110px, -10px);
-}
-.card3-img:hover .card-filter {
-  opacity: 1;
-}
-.card4-img:hover .card-filter {
-  opacity: 1;
-}
-.card5-img:hover .card-filter {
-  opacity: 1;
-}
-.card6-img:hover .card-filter {
-  opacity: 1;
-}
-.card-btn {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  background: none;
-  outline: none;
-  cursor: pointer;
-  padding: 13px 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 11px;
-}
-
-.card-btn::before {
-  content: url(./img/cart.svg);
 }
